@@ -20,3 +20,5 @@ for elemento, porcentaje in composicion.items():
 carbono = Compound("C")
 oxigeno = Compound("O2")
 reaccion_dioxido_de_carbono = Reaction({carbono: 1, oxigeno: 1}, {dioxido_de_carbono: 1})
+
+print("\n** Reacción química **")
